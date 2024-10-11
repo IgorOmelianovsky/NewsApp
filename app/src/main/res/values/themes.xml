@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.P57_News" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+
+    <style name="CustomMenuIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/purple</item>
+    </style>
+
+    <style name="MySplashScreen" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Base.Theme.P57_News</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/news_splash</item>
+    </style>
+
+    <style name="Theme.P57_News" parent="Base.Theme.P57_News" />
+</resources>
